@@ -1,11 +1,17 @@
-const val = "azer";
 
-const getLength = (val) => {
+
+export const getLength = (val) => {
     let total = 0;
+    if(!val){
+        return 0
+    }
     for (let i = 0; i < val.length; i++) {
         total++;
     }
     return total;
 };
 
-console.log(getLength(val));
+
+
+
+console.log(getLength(5));
