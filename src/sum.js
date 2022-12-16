@@ -1,5 +1,5 @@
 export const sum = (arr) => {
-    let total = 0;
+     total = 0;
     if (!arr) {
         return 0;
     }
