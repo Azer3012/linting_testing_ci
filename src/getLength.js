@@ -1,7 +1,7 @@
 
 
 export const getLength = (val) => {
-    let total = 0;
+     total = 0;
     if(!val){
         return 0
     }
